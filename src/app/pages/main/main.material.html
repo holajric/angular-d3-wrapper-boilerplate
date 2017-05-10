@@ -1,0 +1,12 @@
+<md-toolbar>
+    <div class="md-toolbar-tools">
+        <h2 flex md-truncate>DEMO TEST PAGE</h2>
+        <span flex></span>
+        <md-button class="md-raised" aria-label="random-circle" ng-click="vm.onButtonClick()">
+            Random circle
+        </md-button>
+    </div>
+</md-toolbar>
+<md-content class="md-padding">
+   <d3-wrapper id="random-circle" type="svg" height="{{vm.height}}" width="{{vm.width}}" on-wrapper-init="vm.onWrapperInit(wrapper)"></d3-wrapper>  
+</md-content>

@@ -1,0 +1,39 @@
+## Numerous always-ignore items
+*.diff
+*.err
+*.log
+*.swp
+*.vi
+*~
+*.sass-cache
+
+## OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+Thumbs.db
+desktop.ini
+git-revision.sh
+nbproject
+*.sublime-workspace
+.idea
+
+## Folders to ignore
+coverage
+dist
+node_modules
+src/vendor/**
+src/assets/animations
+src/assets/videos
+src/assets/audio
+
+## Files to ignore
+.vendorScripts
+src/assets/version.json
+jsconfig.json
+typings.json
+typings/angularjs/angular.d.ts
+typings/globals/angular/index.d.ts
+typings/
